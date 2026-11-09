@@ -1,0 +1,27 @@
+{
+    "name": "priyank/module-customer-testimonials",
+    "description": "Enterprise Magento 2 Customer Testimonials Extension featuring Admin UI Grid/Form, Declarative Schema, REST API endpoints, and Symfony CLI CSV Importer.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Priyank Jivani",
+            "email": "priyankjivani48@gmail.com",
+            "homepage": "https://www.upwork.com/freelancers/priyankjivani",
+            "role": "Senior Magento 2 Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0",
+        "magento/framework": ">=103.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Priyank\\Testimonials\\": ""
+        }
+    }
+}
