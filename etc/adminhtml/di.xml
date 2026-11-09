@@ -4,7 +4,7 @@
 		<arguments>
 			<argument name="routerList" xsi:type="array">
 				<item name="priyank" xsi:type="array">
-					<item name="class" xsi:type="string">Priyank\Testimonials\Controller\Adminhtml\Router</item>
+					<item name="class" xsi:type="string">PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Router</item>
 					<item name="disable" xsi:type="boolean">false</item>
 					<item name="sortOrder" xsi:type="string">999</item>
 				</item>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
 use Magento\Framework\Controller\ResultFactory;
 
@@ -9,7 +9,7 @@ class Upload extends \Magento\Backend\App\Action
     /**
      * Image uploader model instance
      *
-     * @var \Priyank\Testimonials\Model\ImageUploader
+     * @var \PriyankJivani\CustomerTestimonials\Model\ImageUploader
      */
     public $imageUploader;
 
@@ -17,11 +17,11 @@ class Upload extends \Magento\Backend\App\Action
      * Constructor
      *
      * @param \Magento\Backend\App\Action\Context $context
-     * @param \Priyank\Testimonials\Model\ImageUploader $imageUploader
+     * @param \PriyankJivani\CustomerTestimonials\Model\ImageUploader $imageUploader
      */
     public function __construct(
         \Magento\Backend\App\Action\Context $context,
-        \Priyank\Testimonials\Model\ImageUploader $imageUploader
+        \PriyankJivani\CustomerTestimonials\Model\ImageUploader $imageUploader
     ) {
         parent::__construct($context);
         $this->imageUploader = $imageUploader;
@@ -57,6 +57,6 @@ class Upload extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::Testimonials_save');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_save');
     }
 }

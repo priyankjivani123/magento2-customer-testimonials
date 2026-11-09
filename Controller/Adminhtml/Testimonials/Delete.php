@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
-class Delete extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
+class Delete extends \PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials
 {
 
     /**
@@ -24,7 +24,7 @@ class Delete extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
         if ($id) {
             try {
                 // init model and delete
-                $model = $this->_objectManager->create(\Priyank\Testimonials\Model\Testimonials::class);
+                $model = $this->_objectManager->create(\PriyankJivani\CustomerTestimonials\Model\Testimonials::class);
                 $model->load($id);
                 $model->delete();
                 // display success message
@@ -51,6 +51,6 @@ class Delete extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::Testimonials_delete');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_delete');
     }
 }

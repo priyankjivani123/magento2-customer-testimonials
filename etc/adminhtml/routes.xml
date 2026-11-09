@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
 	<router id="admin">
 		<route frontName="priyank_testimonials" id="priyank_testimonials">
-			<module before="Magento_Backend" name="Priyank_Testimonials"/>
+			<module before="Magento_Backend" name="PriyankJivani_CustomerTestimonials"/>
 		</route>
 	</router>
 </config>

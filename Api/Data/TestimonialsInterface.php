@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Api\Data;
+namespace PriyankJivani\CustomerTestimonials\Api\Data;
 
 interface TestimonialsInterface
 {
@@ -30,7 +30,7 @@ interface TestimonialsInterface
      * Set testimonial ID.
      *
      * @param string $testimonialsId
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setTestimonialsId($testimonialsId);
 
@@ -45,7 +45,7 @@ interface TestimonialsInterface
      * Set ID.
      *
      * @param string $id
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setId($id);
 
@@ -60,7 +60,7 @@ interface TestimonialsInterface
      * Set company name.
      *
      * @param string $companyName
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setCompanyName($companyName);
 
@@ -75,7 +75,7 @@ interface TestimonialsInterface
      * Set name.
      *
      * @param string $name
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setName($name);
 
@@ -90,7 +90,7 @@ interface TestimonialsInterface
      * Set message.
      *
      * @param string $message
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setMessage($message);
 
@@ -105,7 +105,7 @@ interface TestimonialsInterface
      * Set post.
      *
      * @param string $post
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setPost($post);
 
@@ -120,7 +120,7 @@ interface TestimonialsInterface
      * Set profile picture.
      *
      * @param string $profilePic
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setProfilePic($profilePic);
 
@@ -135,7 +135,7 @@ interface TestimonialsInterface
      * Set status.
      *
      * @param string $status
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setStatus($status);
 
@@ -150,7 +150,7 @@ interface TestimonialsInterface
      * Set created at timestamp.
      *
      * @param string $createdAt
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setCreatedAt($createdAt);
 
@@ -165,7 +165,7 @@ interface TestimonialsInterface
      * Set updated at timestamp.
      *
      * @param string $updatedAt
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface
      */
     public function setUpdatedAt($updatedAt);
 }

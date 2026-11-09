@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
-class NewAction extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
+class NewAction extends \PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials
 {
     /**
      * Factory for creating forward result
@@ -51,6 +51,6 @@ class NewAction extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::Testimonials_save');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_save');
     }
 }

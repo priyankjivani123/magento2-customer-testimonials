@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Console\Command;
+namespace PriyankJivani\CustomerTestimonials\Console\Command;
 
 use Magento\Framework\App\State;
 use Magento\Framework\Console\Cli;
 use Magento\Framework\File\Csv;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Filesystem\Driver\File as FileDriver;
-use Priyank\Testimonials\Model\TestimonialsFactory;
+use PriyankJivani\CustomerTestimonials\Model\TestimonialsFactory;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

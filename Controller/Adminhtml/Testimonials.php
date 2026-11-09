@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Controller\Adminhtml;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml;
 
 abstract class Testimonials extends \Magento\Backend\App\Action
 {
@@ -19,7 +19,7 @@ abstract class Testimonials extends \Magento\Backend\App\Action
     /**
      * ACL resource
      */
-    public const ADMIN_RESOURCE = 'Priyank_Testimonials::top_level';
+    public const ADMIN_RESOURCE = 'PriyankJivani_CustomerTestimonials::top_level';
 
     /**
      * @param \Magento\Backend\App\Action\Context $context

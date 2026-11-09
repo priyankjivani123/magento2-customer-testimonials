@@ -5,21 +5,21 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Api\Data;
+namespace PriyankJivani\CustomerTestimonials\Api\Data;
 
 interface TestimonialsSearchResultsInterface extends \Magento\Framework\Api\SearchResultsInterface
 {
     /**
      * Get Testimonials list.
      *
-     * @return \Priyank\Testimonials\Api\Data\TestimonialsInterface[]
+     * @return \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface[]
      */
     public function getItems();
 
     /**
      * Set Testimonials list.
      *
-     * @param \Priyank\Testimonials\Api\Data\TestimonialsInterface[] $items
+     * @param \PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface[] $items
      *
      * @return $this
      */

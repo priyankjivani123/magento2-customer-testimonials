@@ -1,5 +1,5 @@
 <?php
-namespace Priyank\Testimonials\Setup\Patch\Data;
+namespace PriyankJivani\CustomerTestimonials\Setup\Patch\Data;
 
 use Magento\Framework\DB\Adapter\AdapterInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;

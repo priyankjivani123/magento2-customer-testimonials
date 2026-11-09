@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Model;
+namespace PriyankJivani\CustomerTestimonials\Model;
 
 use Magento\Framework\Model\AbstractModel;
-use Priyank\Testimonials\Api\Data\TestimonialsInterface;
+use PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface;
 
 class Testimonials extends AbstractModel implements TestimonialsInterface
 {
@@ -18,7 +18,7 @@ class Testimonials extends AbstractModel implements TestimonialsInterface
      */
     public function _construct()
     {
-        $this->_init(\Priyank\Testimonials\Model\ResourceModel\Testimonials::class);
+        $this->_init(\PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials::class);
     }
 
     /**

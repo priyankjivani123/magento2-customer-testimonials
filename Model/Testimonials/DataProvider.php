@@ -6,11 +6,11 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Model\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Model\Testimonials;
 
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Ui\DataProvider\AbstractDataProvider;
-use Priyank\Testimonials\Model\ResourceModel\Testimonials\CollectionFactory;
+use PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials\CollectionFactory;
 use Magento\Store\Model\StoreManagerInterface;
 use Magento\Framework\UrlInterface;
 
@@ -26,7 +26,7 @@ class DataProvider extends AbstractDataProvider
     /**
      * Testimonials collection
      *
-     * @var \Priyank\Testimonials\Model\ResourceModel\Testimonials\Collection
+     * @var \PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials\Collection
      */
     protected $collection;
 

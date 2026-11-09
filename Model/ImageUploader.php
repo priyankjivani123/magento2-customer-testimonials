@@ -1,6 +1,6 @@
 <?php
 
-namespace Priyank\Testimonials\Model;
+namespace PriyankJivani\CustomerTestimonials\Model;
 
 use Exception;
 use Magento\Framework\App\Filesystem\DirectoryList;

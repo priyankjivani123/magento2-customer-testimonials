@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
 	<menu>
-		<add id="Priyank::top_level" title="Testimonials" module="Priyank_Testimonials" sortOrder="9999" resource="Priyank_Testimonials::Testimonials_view"/>
-		<add id="Priyank_Testimonials::priyank_testimonials_testimonials" title="Testimonials" module="Priyank_Testimonials" sortOrder="9999" resource="Priyank_Testimonials::Testimonials_view" parent="Priyank::top_level" action="priyank_testimonials/testimonials/index"/>
+		<add id="Priyank::top_level" title="Testimonials" module="PriyankJivani_CustomerTestimonials" sortOrder="9999" resource="PriyankJivani_CustomerTestimonials::Testimonials_view"/>
+		<add id="PriyankJivani_CustomerTestimonials::priyank_testimonials_testimonials" title="Testimonials" module="PriyankJivani_CustomerTestimonials" sortOrder="9999" resource="PriyankJivani_CustomerTestimonials::Testimonials_view" parent="Priyank::top_level" action="priyank_testimonials/testimonials/index"/>
 	</menu>
 </config>

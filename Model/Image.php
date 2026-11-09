@@ -1,5 +1,5 @@
 <?php
-namespace Priyank\Testimonials\Model;
+namespace PriyankJivani\CustomerTestimonials\Model;
 
 use Magento\Framework\UrlInterface;
 use Magento\Framework\Filesystem;

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Model\ResourceModel\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
@@ -22,8 +22,8 @@ class Collection extends AbstractCollection
     protected function _construct()
     {
         $this->_init(
-            \Priyank\Testimonials\Model\Testimonials::class,
-            \Priyank\Testimonials\Model\ResourceModel\Testimonials::class
+            \PriyankJivani\CustomerTestimonials\Model\Testimonials::class,
+            \PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials::class
         );
     }
 }

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Ui\Component\Listing\Column;
+namespace PriyankJivani\CustomerTestimonials\Ui\Component\Listing\Column;
 
 use Magento\Ui\Component\Listing\Columns\Column;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;

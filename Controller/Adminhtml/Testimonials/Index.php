@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
 class Index extends \Magento\Backend\App\Action
 {
@@ -49,6 +49,6 @@ class Index extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::Testimonials_view');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_view');
     }
 }

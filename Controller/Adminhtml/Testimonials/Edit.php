@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
-class Edit extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
+class Edit extends \PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials
 {
     /**
      * Page result factory used to build admin edit pages
@@ -41,7 +41,7 @@ class Edit extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
     {
         // 1. Get ID and create model
         $id = $this->getRequest()->getParam('id');
-        $model = $this->_objectManager->create(\Priyank\Testimonials\Model\Testimonials::class);
+        $model = $this->_objectManager->create(\PriyankJivani\CustomerTestimonials\Model\Testimonials::class);
 
         // 2. Initial checking
         if ($id) {
@@ -80,6 +80,6 @@ class Edit extends \Priyank\Testimonials\Controller\Adminhtml\Testimonials
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::Testimonials_update');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_update');
     }
 }

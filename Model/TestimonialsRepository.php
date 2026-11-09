@@ -5,18 +5,18 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Model;
+namespace PriyankJivani\CustomerTestimonials\Model;
 
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
 use Magento\Framework\Exception\CouldNotDeleteException;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\NoSuchEntityException;
-use Priyank\Testimonials\Api\Data\TestimonialsInterface;
-use Priyank\Testimonials\Api\Data\TestimonialsInterfaceFactory;
-use Priyank\Testimonials\Api\Data\TestimonialsSearchResultsInterfaceFactory;
-use Priyank\Testimonials\Api\TestimonialsRepositoryInterface;
-use Priyank\Testimonials\Model\ResourceModel\Testimonials as ResourceTestimonials;
-use Priyank\Testimonials\Model\ResourceModel\Testimonials\CollectionFactory as TestimonialsCollectionFactory;
+use PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterface;
+use PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsInterfaceFactory;
+use PriyankJivani\CustomerTestimonials\Api\Data\TestimonialsSearchResultsInterfaceFactory;
+use PriyankJivani\CustomerTestimonials\Api\TestimonialsRepositoryInterface;
+use PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials as ResourceTestimonials;
+use PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials\CollectionFactory as TestimonialsCollectionFactory;
 
 class TestimonialsRepository implements TestimonialsRepositoryInterface
 {

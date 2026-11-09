@@ -1,5 +1,5 @@
 <?php
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -55,7 +55,7 @@ class ExportCsv extends Action
         $this->csvProcessor->setDelimiter(',')->setEnclosure('"');
 
         $collection = $this->_objectManager->create(
-            \Priyank\Testimonials\Model\ResourceModel\Testimonials\Collection::class
+            \PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials\Collection::class
         );
 
         $header = ['company_name','name','message','post','profile_pic','status','created_at','updated_at'];
@@ -87,6 +87,6 @@ class ExportCsv extends Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::testimonial');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::testimonial');
     }
 }

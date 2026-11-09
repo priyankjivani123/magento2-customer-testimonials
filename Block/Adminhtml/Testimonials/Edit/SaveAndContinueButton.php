@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Block\Adminhtml\Testimonials\Edit;
+namespace PriyankJivani\CustomerTestimonials\Block\Adminhtml\Testimonials\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 

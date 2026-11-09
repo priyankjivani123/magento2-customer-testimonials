@@ -1,5 +1,5 @@
 <?php
-namespace Priyank\Testimonials\Ui\Component\Listing\Column;
+namespace PriyankJivani\CustomerTestimonials\Ui\Component\Listing\Column;
 
 use Magento\Framework\View\Element\UiComponentFactory;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
@@ -11,7 +11,7 @@ class Thumbnail extends Column
     public const ALT_FIELD = 'name';
 
     /**
-     * @var \Priyank\Testimonials\Model\Image
+     * @var \PriyankJivani\CustomerTestimonials\Model\Image
      */
     protected $imageHelper;
 
@@ -25,7 +25,7 @@ class Thumbnail extends Column
      *
      * @param ContextInterface $context
      * @param UiComponentFactory $uiComponentFactory
-     * @param \Priyank\Testimonials\Model\Image $imageHelper
+     * @param \PriyankJivani\CustomerTestimonials\Model\Image $imageHelper
      * @param \Magento\Framework\UrlInterface $urlBuilder
      * @param array $components
      * @param array $data
@@ -33,7 +33,7 @@ class Thumbnail extends Column
     public function __construct(
         ContextInterface $context,
         UiComponentFactory $uiComponentFactory,
-        \Priyank\Testimonials\Model\Image $imageHelper,
+        \PriyankJivani\CustomerTestimonials\Model\Image $imageHelper,
         \Magento\Framework\UrlInterface $urlBuilder,
         array $components = [],
         array $data = []

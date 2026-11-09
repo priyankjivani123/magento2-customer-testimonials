@@ -1,5 +1,5 @@
 <?php
-namespace Priyank\Testimonials\Model\Config\Source;
+namespace PriyankJivani\CustomerTestimonials\Model\Config\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
 
@@ -13,7 +13,7 @@ class StatusOptions implements OptionSourceInterface
      *
      * @return array
      */
-    public function toOptionArray()
+    public function toOptionArray(): array
     {
         return [
             ['value' => 1, 'label' => __('Enabled')],

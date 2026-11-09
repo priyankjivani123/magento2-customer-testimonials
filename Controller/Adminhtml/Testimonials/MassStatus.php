@@ -1,11 +1,11 @@
 <?php
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Ui\Component\MassAction\Filter;
-use Priyank\Testimonials\Model\ResourceModel\Testimonials\CollectionFactory;
+use PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials\CollectionFactory;
 
 class MassStatus extends Action
 {
@@ -76,6 +76,6 @@ class MassStatus extends Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::Testimonials_update');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_update');
     }
 }

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
 class InlineEdit extends \Magento\Backend\App\Action
 {
@@ -51,9 +51,9 @@ class InlineEdit extends \Magento\Backend\App\Action
             } else {
                 foreach (array_keys($postItems) as $modelId) {
 
-                    /** @var \Priyank\Testimonials\Model\Testimonials $model */
+                    /** @var \PriyankJivani\CustomerTestimonials\Model\Testimonials $model */
                     $model = $this->_objectManager
-                        ->create(\Priyank\Testimonials\Model\Testimonials::class)
+                        ->create(\PriyankJivani\CustomerTestimonials\Model\Testimonials::class)
                         ->load($modelId);
 
                     try {
@@ -85,6 +85,6 @@ class InlineEdit extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Priyank_Testimonials::Testimonials_update');
+        return $this->_authorization->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_update');
     }
 }

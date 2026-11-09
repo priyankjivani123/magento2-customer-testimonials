@@ -9,10 +9,10 @@
 	</argument>
 	<settings>
 		<buttons>
-			<button name="back" class="Priyank\Testimonials\Block\Adminhtml\Testimonials\Edit\BackButton"/>
-			<button name="delete" class="Priyank\Testimonials\Block\Adminhtml\Testimonials\Edit\DeleteButton"/>
-			<button name="save" class="Priyank\Testimonials\Block\Adminhtml\Testimonials\Edit\SaveButton"/>
-			<button name="save_and_continue" class="Priyank\Testimonials\Block\Adminhtml\Testimonials\Edit\SaveAndContinueButton"/>
+			<button name="back" class="PriyankJivani\CustomerTestimonials\Block\Adminhtml\Testimonials\Edit\BackButton"/>
+			<button name="delete" class="PriyankJivani\CustomerTestimonials\Block\Adminhtml\Testimonials\Edit\DeleteButton"/>
+			<button name="save" class="PriyankJivani\CustomerTestimonials\Block\Adminhtml\Testimonials\Edit\SaveButton"/>
+			<button name="save_and_continue" class="PriyankJivani\CustomerTestimonials\Block\Adminhtml\Testimonials\Edit\SaveAndContinueButton"/>
 		</buttons>
 		<namespace>priyank_testimonials_testimonials_form</namespace>
 		<dataScope>data</dataScope>
@@ -29,7 +29,7 @@
 		<settings>
 			<submitUrl path="*/*/save"/>
 		</settings>
-		<dataProvider name="testimonials_form_data_source" class="Priyank\Testimonials\Model\Testimonials\DataProvider">
+		<dataProvider name="testimonials_form_data_source" class="PriyankJivani\CustomerTestimonials\Model\Testimonials\DataProvider">
 			<settings>
 				<requestFieldName>id</requestFieldName>
 				<primaryFieldName>id</primaryFieldName>
@@ -42,7 +42,7 @@
 		</settings>
 		<field name="status">
 		    <argument name="data" xsi:type="array">
-		        <item name="options" xsi:type="object">Priyank\Testimonials\Model\Config\Source\StatusOptions</item>
+		        <item name="options" xsi:type="object">PriyankJivani\CustomerTestimonials\Model\Config\Source\StatusOptions</item>
 		        <item name="config" xsi:type="array">
 		            <item name="dataType" xsi:type="string">boolean</item>
 		            <item name="label" xsi:type="string" translate="true">Status</item>

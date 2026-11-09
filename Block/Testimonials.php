@@ -1,9 +1,9 @@
 <?php
-namespace Priyank\Testimonials\Block;
+namespace PriyankJivani\CustomerTestimonials\Block;
 
 use Magento\Framework\View\Element\Template;
 use Magento\Framework\View\Element\Template\Context;
-use Priyank\Testimonials\Model\ResourceModel\Testimonials\CollectionFactory;
+use PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials\CollectionFactory;
 use Magento\Store\Model\StoreManagerInterface;
 
 class Testimonials extends Template
@@ -44,7 +44,7 @@ class Testimonials extends Template
     /**
      * Get approved testimonials collection
      *
-     * @return \Priyank\Testimonials\Model\ResourceModel\Testimonials\Collection
+     * @return \PriyankJivani\CustomerTestimonials\Model\ResourceModel\Testimonials\Collection
      */
     public function getTestimonials()
     {
@@ -75,6 +75,6 @@ class Testimonials extends Template
         if ($profilePic) {
             return $this->getMediaUrl() . 'wysiwyg/helloworld/' . $profilePic;
         }
-        return $this->getViewFileUrl('Priyank_Testimonials::images/default-avatar.png');
+        return $this->getViewFileUrl('PriyankJivani_CustomerTestimonials::images/default-avatar.png');
     }
 }

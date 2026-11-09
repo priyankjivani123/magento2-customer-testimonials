@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Priyank\Testimonials\Controller\Adminhtml\Testimonials;
+namespace PriyankJivani\CustomerTestimonials\Controller\Adminhtml\Testimonials;
 
 use Magento\Framework\Exception\LocalizedException;
-use Priyank\Testimonials\Model\ImageUploader;
+use PriyankJivani\CustomerTestimonials\Model\ImageUploader;
 
 class Save extends \Magento\Backend\App\Action
 {
@@ -22,7 +22,7 @@ class Save extends \Magento\Backend\App\Action
     /**
      * Image upload handler instance.
      *
-     * @var \Priyank\Testimonials\Model\ImageUploader
+     * @var \PriyankJivani\CustomerTestimonials\Model\ImageUploader
      */
     protected $imageUploaderModel;
 
@@ -58,7 +58,7 @@ class Save extends \Magento\Backend\App\Action
         if ($data) {
             $id    = $this->getRequest()->getParam('id');
             $model = $this->_objectManager->create(
-                \Priyank\Testimonials\Model\Testimonials::class
+                \PriyankJivani\CustomerTestimonials\Model\Testimonials::class
             )->load($id);
 
             if (!$model->getId() && $id) {
@@ -104,16 +104,16 @@ class Save extends \Magento\Backend\App\Action
     /**
      * Process image data and prepare before save
      *
-     * @param \Priyank\Testimonials\Model\Testimonials $model
+     * @param \PriyankJivani\CustomerTestimonials\Model\Testimonials $model
      * @param array                                    $data
      *
-     * @return \Priyank\Testimonials\Model\Testimonials
+     * @return \PriyankJivani\CustomerTestimonials\Model\Testimonials
      */
     public function imageData($model, $data)
     {
         if ($model->getId()) {
             $model = $this->_objectManager->create(
-                \Priyank\Testimonials\Model\Testimonials::class
+                \PriyankJivani\CustomerTestimonials\Model\Testimonials::class
             )->load($model->getId());
 
             if (isset($data['profile_pic'][0]['name'])) {
@@ -156,6 +156,6 @@ class Save extends \Magento\Backend\App\Action
     protected function _isAllowed()
     {
         return $this->_authorization
-            ->isAllowed('Priyank_Testimonials::Testimonials_save');
+            ->isAllowed('PriyankJivani_CustomerTestimonials::Testimonials_save');
     }
 }

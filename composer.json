@@ -1,5 +1,5 @@
 {
-    "name": "priyank/module-customer-testimonials",
+    "name": "priyankjivani/module-customer-testimonials",
     "description": "Enterprise Magento 2 Customer Testimonials Extension featuring Admin UI Grid/Form, Declarative Schema, REST API endpoints, and Symfony CLI CSV Importer.",
     "type": "magento2-module",
     "version": "1.0.0",
@@ -21,7 +21,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Priyank\\Testimonials\\": ""
+            "PriyankJivani\\CustomerTestimonials\\": ""
         }
     }
 }
